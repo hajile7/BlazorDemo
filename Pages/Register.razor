@@ -1,0 +1,71 @@
+@page "/register"
+
+<PageTitle>Register</PageTitle>
+
+<h1><u>Register Form</u></h1>
+
+@if(worked) {
+    <p>It worked!</p>
+}
+
+@if(passCheck) {
+    <p>Your passwords gotta match</p>
+}
+
+<EditForm Model="@registerModel" OnValidSubmit="RegisterUser">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+
+    <div>
+        <label>First Name:</label>
+        <input type="text" class="form-control" @bind-value="registerModel.FirstName"/>
+        <ValidationMessage For="@(() => registerModel.FirstName)" />
+    </div>
+
+    <div>
+        <label>Last Name:</label>
+        <input type="text" class="form-control" @bind-value="registerModel.LastName"/>
+        <ValidationMessage For="@(() => registerModel.LastName)" />
+    </div>
+
+    <div>
+        <label>Username:</label>
+        <input type="text" class="form-control" @bind-value="registerModel.Username"/>
+        <ValidationMessage For="@(() => registerModel.Username)" />
+
+    </div>
+
+    <div>
+        <label>Password:</label>
+        <input type="password" class="form-control" @bind-value="registerModel.Password"/>
+        <ValidationMessage For="@(() => registerModel.Password)" />
+    </div>
+
+    <div>
+        <label>Confirm Password:</label>
+        <input type="password" class="form-control" @bind-value="registerModel.ConfirmPassword"/>
+        <ValidationMessage For="@(() => registerModel.ConfirmPassword)" />
+    </div>
+
+    <br/>
+
+    <button type="submit" class="btn btn-primary">Register</button>
+    
+</EditForm>
+
+@code {
+
+bool worked = false;
+bool passCheck = false;
+private RegisterModel registerModel = new RegisterModel();
+
+private void RegisterUser() {
+    if(registerModel.Password != registerModel.ConfirmPassword) {
+        passCheck = true;
+    }
+    else {
+        worked = true;
+    }
+}
+
+}

@@ -1033,3 +1033,5 @@ C:\Users\Eli\source\repos\My stuff\BlazorPractice\obj\Debug\net8.0\refint\Blazor
 C:\Users\Eli\source\repos\My stuff\BlazorPractice\obj\Debug\net8.0\BlazorPractice.pdb
 C:\Users\Eli\source\repos\My stuff\BlazorPractice\obj\Debug\net8.0\ref\BlazorPractice.dll
 C:\Users\Eli\source\repos\My stuff\BlazorPractice\obj\Debug\net8.0\scopedcss\Pages\Test.razor.rz.scp.css
+C:\Users\Eli\source\repos\My stuff\BlazorPractice\obj\Debug\net8.0\BlazorPractice.sourcelink.json
+C:\Users\Eli\source\repos\My stuff\BlazorPractice\obj\Debug\net8.0\scopedcss\Pages\Register.razor.rz.scp.css
