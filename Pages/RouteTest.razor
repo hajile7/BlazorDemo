@@ -1,0 +1,14 @@
+@page "/route/{id:int}"
+
+<h1>Receiver</h1>
+
+<div>I oughtta have something beneath me if you were linked here: </div>
+<div>@id</div>
+
+@code
+{
+
+    [Parameter]
+    public int id { get; set; }
+
+}

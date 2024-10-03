@@ -82,11 +82,23 @@
 
 <button @onclick="hideTestVar">Clear Text</button>
 
+<br>
+<br>
+
+
+
 @if(!testService.IsSet)
 {
     <div>Nice</div>
 }
 
+<h1><u>Passing via Route Test</u></h1>
+
+<a href="/route/123">Head over to RouteTest with ID 123</a>
+
+<h1><u>Passing via Query Test</u></h1>
+
+<a href="/query?name=John&age=25">Head over to QueryTest with name John and age 25</a>
 
 @code {
 

@@ -1035,3 +1035,13 @@ C:\Users\Eli\source\repos\My stuff\BlazorPractice\obj\Debug\net8.0\ref\BlazorPra
 C:\Users\Eli\source\repos\My stuff\BlazorPractice\obj\Debug\net8.0\scopedcss\Pages\Test.razor.rz.scp.css
 C:\Users\Eli\source\repos\My stuff\BlazorPractice\obj\Debug\net8.0\BlazorPractice.sourcelink.json
 C:\Users\Eli\source\repos\My stuff\BlazorPractice\obj\Debug\net8.0\scopedcss\Pages\Register.razor.rz.scp.css
+C:\Users\Eli\source\repos\My stuff\BlazorPractice\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.WebUtilities.wasm
+C:\Users\Eli\source\repos\My stuff\BlazorPractice\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Net.Http.Headers.wasm
+C:\Users\Eli\source\repos\My stuff\BlazorPractice\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.WebUtilities.wasm.gz
+C:\Users\Eli\source\repos\My stuff\BlazorPractice\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Net.Http.Headers.wasm.gz
+C:\Users\Eli\source\repos\My stuff\BlazorPractice\bin\Debug\net8.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Eli\source\repos\My stuff\BlazorPractice\bin\Debug\net8.0\Microsoft.Net.Http.Headers.dll
+C:\Users\Eli\source\repos\My stuff\BlazorPractice\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.WebUtilities.wasm
+C:\Users\Eli\source\repos\My stuff\BlazorPractice\obj\Debug\net8.0\webcil\Microsoft.Net.Http.Headers.wasm
+C:\Users\Eli\source\repos\My stuff\BlazorPractice\obj\Debug\net8.0\compressed\c5u2n1f526.gz
+C:\Users\Eli\source\repos\My stuff\BlazorPractice\obj\Debug\net8.0\compressed\l7umu4vqml.gz

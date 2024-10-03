@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DCbl7EIA3gjAjE5A9Bus/rrxffpTQVv2TBMKHP8vcRM=",
+  "Hash": "t6NL5mMcCrfBsu8HyZ6rWlsf4DQPa38e5cQQLVZqezY=",
   "Source": "BlazorPractice",
   "BasePath": "/",
   "Mode": "Root",
@@ -378,6 +378,25 @@
       "OriginalItemSpec": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\obj\\Debug\\net8.0\\webcil\\Microsoft.AspNetCore.Metadata.wasm"
     },
     {
+      "Identity": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.WebUtilities.wasm",
+      "SourceId": "BlazorPractice",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.WebUtilities.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\obj\\Debug\\net8.0\\webcil\\Microsoft.AspNetCore.WebUtilities.wasm"
+    },
+    {
       "Identity": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.CSharp.wasm",
       "SourceId": "BlazorPractice",
       "SourceType": "Computed",
@@ -699,6 +718,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\obj\\Debug\\net8.0\\webcil\\Microsoft.JSInterop.WebAssembly.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Net.Http.Headers.wasm",
+      "SourceId": "BlazorPractice",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Net.Http.Headers.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\obj\\Debug\\net8.0\\webcil\\Microsoft.Net.Http.Headers.wasm"
     },
     {
       "Identity": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.VisualBasic.Core.wasm",
@@ -5470,6 +5508,25 @@
       "OriginalItemSpec": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Pipes.wasm"
     },
     {
+      "Identity": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\obj\\Debug\\net8.0\\compressed\\c5u2n1f526.gz",
+      "SourceId": "BlazorPractice",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.WebUtilities.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.WebUtilities.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.WebUtilities.wasm"
+    },
+    {
       "Identity": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\obj\\Debug\\net8.0\\compressed\\ceyxrcpvcz.gz",
       "SourceId": "BlazorPractice",
       "SourceType": "Computed",
@@ -6361,6 +6418,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.TypeExtensions.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\obj\\Debug\\net8.0\\compressed\\l7umu4vqml.gz",
+      "SourceId": "BlazorPractice",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Net.Http.Headers.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Net.Http.Headers.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Net.Http.Headers.wasm"
     },
     {
       "Identity": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\obj\\Debug\\net8.0\\compressed\\l9rshusuic.gz",

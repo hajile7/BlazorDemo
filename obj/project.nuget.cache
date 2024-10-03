@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EvnFAuEvaf0=",
+  "dgSpecHash": "i/uNvhkqCd8=",
   "success": true,
   "projectFilePath": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\BlazorPractice.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.8\\microsoft.aspnetcore.components.webassembly.8.0.8.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\8.0.8\\microsoft.aspnetcore.components.webassembly.devserver.8.0.8.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.aspnetcore.metadata\\8.0.8\\microsoft.aspnetcore.metadata.8.0.8.nupkg.sha512",
+    "C:\\Users\\Eli\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\8.0.8\\microsoft.aspnetcore.webutilities.8.0.8.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.2\\microsoft.extensions.configuration.binder.8.0.2.nupkg.sha512",
@@ -28,6 +29,7 @@
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.jsinterop\\8.0.8\\microsoft.jsinterop.8.0.8.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.8\\microsoft.jsinterop.webassembly.8.0.8.nupkg.sha512",
+    "C:\\Users\\Eli\\.nuget\\packages\\microsoft.net.http.headers\\8.0.8\\microsoft.net.http.headers.8.0.8.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.8\\microsoft.net.illink.tasks.8.0.8.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.8\\microsoft.net.sdk.webassembly.pack.8.0.8.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",

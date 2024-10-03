@@ -1,0 +1,36 @@
+@page "/query"
+
+<h1>Query receiving page</h1>
+
+<div>I received the name: @name, who has an age of: @age</div>
+
+@code 
+{
+
+    [Parameter]
+    public string? name { get; set; }
+    [Parameter]
+    public int? age { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        if (NavigationManager != null)
+        {
+            var uri = new Uri(NavigationManager.Uri);
+        if (Microsoft.AspNetCore.WebUtilities.QueryHelpers.ParseQuery(uri.Query).TryGetValue("name", out var nameValue))
+        {
+            name = nameValue;
+        }
+
+       if (Microsoft.AspNetCore.WebUtilities.QueryHelpers.ParseQuery(uri.Query).TryGetValue("age", out var ageValue) && int.TryParse(ageValue, out var parsedAge))
+        {
+            age = parsedAge;
+        }
+        }
+        
+    }
+
+    [Inject]
+    public NavigationManager? NavigationManager { get; set; }
+
+}
