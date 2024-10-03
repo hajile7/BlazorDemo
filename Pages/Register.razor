@@ -1,4 +1,9 @@
+@using BlazorPractice.Models;
+@using BlazorPractice.Services;
+
 @page "/register"
+
+@inject TestService testService;
 
 <PageTitle>Register</PageTitle>
 
@@ -53,10 +58,42 @@
     
 </EditForm>
 
+<hr/>
+
+<h1><u>Pseudo Service Test</u></h1>
+
+<div>Test Text Will Appear & Disappear Here: @if(testService.IsSet)
+{
+    <span>@testService.TestVar</span>
+}
+</div>
+
+<br>
+
+<label>Change Text</label>
+<input type="text" placeholder="Enter text" @bind="s"/>
+
+<br>
+
+<button class="btn btn-secondary" @onclick="setTestVar">View Text</button>
+
+<br>
+<br>
+
+<button @onclick="hideTestVar">Clear Text</button>
+
+@if(!testService.IsSet)
+{
+    <div>Nice</div>
+}
+
+
 @code {
 
 bool worked = false;
 bool passCheck = false;
+
+string s = "";
 private RegisterModel registerModel = new RegisterModel();
 
 private void RegisterUser() {
@@ -66,6 +103,18 @@ private void RegisterUser() {
     else {
         worked = true;
     }
+}
+
+private void setTestVar()
+{
+    Console.WriteLine("I was called to set");
+    testService.SetTest(s);
+}
+
+private void hideTestVar() 
+{
+    Console.WriteLine("I was called to clear");
+    testService.UnsetTest();
 }
 
 }
