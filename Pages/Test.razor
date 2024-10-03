@@ -10,4 +10,24 @@
 
 <div class="anothaOne">Uno mas tests</div>
 
+<button class="btn btn-primary" @onclick=toggleStuff>Click me to toggle below</button>
+
+<div>Do bootstrap Icons now work?</div>
+
+<i class="bi bi-bank"></i>
+
+@if(testBool) {
+    <div>Peekaboo!</div>
+}
+
+
+@code {
+
+    bool testBool = false;
+
+    private void toggleStuff() {
+        testBool = !testBool;
+    }
+
+}
 

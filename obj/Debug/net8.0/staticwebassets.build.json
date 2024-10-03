@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DJ31OK+IUENEGIn3t4YnANX40Us4bnVX0R8hOTRcN2w=",
+  "Hash": "DCbl7EIA3gjAjE5A9Bus/rrxffpTQVv2TBMKHP8vcRM=",
   "Source": "BlazorPractice",
   "BasePath": "/",
   "Mode": "Root",
@@ -7938,6 +7938,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
+    },
+    {
+      "Identity": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\wwwroot\\site.js",
+      "SourceId": "BlazorPractice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eli\\source\\repos\\My stuff\\BlazorPractice\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\site.js"
     }
   ]
 }
