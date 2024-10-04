@@ -4,6 +4,7 @@
 @page "/register"
 
 @inject TestService testService;
+@inject UserService UserService;
 
 <PageTitle>Register</PageTitle>
 
@@ -113,12 +114,12 @@ bool passCheck = false;
 string s = "";
 private RegisterModel registerModel = new RegisterModel();
 
-private void RegisterUser() {
+private async Task RegisterUser() {
     if(registerModel.Password != registerModel.ConfirmPassword) {
         passCheck = true;
     }
     else {
-        worked = true;
+        await UserService.CreateUser(registerModel);
     }
 }
 
