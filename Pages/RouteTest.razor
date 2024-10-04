@@ -2,13 +2,22 @@
 
 <h1>Receiver</h1>
 
-<div>I oughtta have something beneath me if you were linked here: </div>
-<div>@id</div>
+<div>Current Number: @Number</div>
+<button @onclick="IncrementNumber" class="btn btn-primary">Increment</button>
+
 
 @code
 {
 
     [Parameter]
-    public int id { get; set; }
+    public int Number { get; set; }
+
+    [Parameter]
+	public EventCallback<int> OnNumberChanged { get; set; }
+    
+    private void IncrementNumber()
+    {
+        OnNumberChanged.InvokeAsync(Number + 1);
+    }
 
 }

@@ -66,6 +66,7 @@
 {
     <span>@testService.TestVar</span>
 }
+    using System.Runtime.InteropServices;
 </div>
 
 <br>
@@ -100,11 +101,15 @@
 
 <a href="/query?name=John&age=25">Head over to QueryTest with name John and age 25</a>
 
-@code {
+<br>
+<br>
 
+<RouteTest Number="currentNumber" OnNumberChanged="HandleNumberChanged"></RouteTest>
+
+@code {
+int currentNumber = 0;
 bool worked = false;
 bool passCheck = false;
-
 string s = "";
 private RegisterModel registerModel = new RegisterModel();
 
@@ -115,6 +120,11 @@ private void RegisterUser() {
     else {
         worked = true;
     }
+}
+
+private void HandleNumberChanged(int newNumber) {
+    currentNumber = newNumber;
+    Console.WriteLine($"The number was changed to: {newNumber}");
 }
 
 private void setTestVar()
