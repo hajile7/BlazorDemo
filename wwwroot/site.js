@@ -9,3 +9,11 @@ window.initializeBootstrapComponents = () => {
         return new bootstrap.Tooltip(tooltipTriggerEl);
     });
 };
+
+window.scrollToElement = function (elementId) {
+    console.log("scrollToElement function called with elementId:", elementId);
+    const element = document.getElementById(elementId);
+    if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+    }
+};

@@ -5,6 +5,7 @@
 
 @inject TestService testService;
 @inject UserService UserService;
+@inject IJSRuntime JS;
 
 <PageTitle>Register</PageTitle>
 
@@ -59,6 +60,8 @@
     
 </EditForm>
 
+<a @onclick='() => ScrollToElement("scrollToMe")'>scroll down</a>
+
 <hr/>
 
 <h1><u>Pseudo Service Test</u></h1>
@@ -107,12 +110,19 @@
 
 <RouteTest Number="currentNumber" OnNumberChanged="HandleNumberChanged"></RouteTest>
 
+<div id="scrollToMe">Did you scroll to me?</div>
+
 @code {
 int currentNumber = 0;
 bool worked = false;
 bool passCheck = false;
 string s = "";
 private RegisterModel registerModel = new RegisterModel();
+
+private async Task ScrollToElement(string elementId)
+{
+    await JS.InvokeVoidAsync("scrollToElement", elementId);
+}
 
 private async Task RegisterUser() {
     if(registerModel.Password != registerModel.ConfirmPassword) {
